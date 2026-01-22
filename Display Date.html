@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Display Date</h3>
+
+<input type="text" id="date">
+<button onclick="showDate()">Display Date</button>
+
+<script>
+function showDate() {
+  let d = new Date().toDateString();
+  alert("Date displayed");
+  document.getElementById("date").value = d;
+}
+</script>
+
+</body>
+</html>
